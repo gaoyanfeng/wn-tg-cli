@@ -1,0 +1,30 @@
+{
+  "name": "wn-tg-cli",
+  "version": "0.0.1",
+  "description": "create front-end template",
+  "author": "gaoyanfeng",
+  "scripts": {
+    "init": "node ./bin/init.js",
+    "tg-init": "node ./bin/tg-init.js"
+  },
+  "bin": {
+    "index": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "vue",
+    "bms"
+  ],
+  "repository": "",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^4.0.0",
+    "ora": "^4.0.4"
+  },
+  "devDependencies": []
+}
